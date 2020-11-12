@@ -10,6 +10,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #303846;
 }
 
 @media screen and (max-width: 966px) {
@@ -27,11 +28,6 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
-}
-
-.featureImage {
-  height: 200px;
-  width: 200px;
 }

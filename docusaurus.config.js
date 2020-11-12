@@ -6,13 +6,13 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'Himawari', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'Scriptable-For-Dummies', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
     navbar: {
       title: 'Scriptable For Dummies',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Scriptable Logo',
         src: 'img/appicon.png',
       },
       items: [
@@ -22,9 +22,14 @@ module.exports = {
           label: 'Docs',
           position: 'right',
         },
-        { to: 'blog', label: 'Blog', position: 'right' },
+       // { to: 'blog', label: 'Blog', position: 'right' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://discord.gg/7KbjfTV',
+          label: 'Help',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/IssamElNass/Scriptable-For-Dummies',
           label: 'GitHub',
           position: 'right',
         },
@@ -37,11 +42,11 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Getting Started',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
+              label: 'Popular Topics',
               to: 'docs/doc2/',
             },
           ],
@@ -88,13 +93,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/IssamElNass/Scriptable-For-Dummies/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/IssamElNass/Scriptable-For-Dummies/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
