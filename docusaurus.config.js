@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Easy Guide To Automate iOS using JavaScript!',
   url: 'https://scriptable-for-dummies.vercel.app',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Himawari', // Usually your GitHub org/user name.
   projectName: 'Scriptable-For-Dummies', // Usually your repo name.
