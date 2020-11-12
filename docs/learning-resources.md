@@ -8,7 +8,7 @@ This page includes our recommendations for some of the best external resources a
 
 
 ### Learning Javascript
-* [W3Schools' JavaScript Tutorial]((https://www.w3schools.com/js/js_intro.asp)).
+* [W3Schools' JavaScript Tutorial](https://www.w3schools.com/js/js_intro.asp).
 * [Intro to Programming in JavaScript](https://www.codecademy.com/pro/intensive/programming-with-javascript)
 * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
