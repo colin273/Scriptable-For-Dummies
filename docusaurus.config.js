@@ -25,6 +25,7 @@ module.exports = {
         },
        // { to: 'blog', label: 'Blog', position: 'right' },
         {
+          href: 'https://discord.gg/7KbjfTV',
           label: 'Help',
           position: 'right',
 

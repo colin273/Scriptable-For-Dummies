@@ -43,3 +43,7 @@
 .footer {
   background-color: #151b25;
 }
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: #ffffff
+}
