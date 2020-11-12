@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Scriptable For Dummies',
   tagline: 'Easy Guide To Automate iOS using JavaScript!',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://scriptable-for-dummies.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -11,6 +11,7 @@ module.exports = {
     hideableSidebar: true,
     navbar: {
       title: 'Scriptable For Dummies',
+      hideOnScroll: true,
       logo: {
         alt: 'Scriptable Logo',
         src: 'img/appicon.png',
