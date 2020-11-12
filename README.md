@@ -26,7 +26,7 @@ This command generates static content into the `build` directory and can be serv
 
 
 
-## How to add a new Page
+## How to add a new docs Page
 
 Basically you just need the folder **docs** and **sidebars.js**
 
@@ -41,3 +41,6 @@ sidebar_label: *Sidebar Title* (Title that will be visible on the sidebar of the
 Now you can start adding stuff =D 
 
 **Note** When adding images, you have to put it in the static folder with a subfolder named after your markdown file.
+
+
+For sidebars.js it is basically an object with arrays. and you have to give the id of the file you've created in the array
