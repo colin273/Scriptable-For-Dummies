@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Scriptable For Dummies',
-  tagline: 'The tagline of my site',
+  tagline: 'Easy Guide To Automate iOS using JavaScript!',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,9 +24,9 @@ module.exports = {
         },
        // { to: 'blog', label: 'Blog', position: 'right' },
         {
-          href: 'https://discord.gg/7KbjfTV',
           label: 'Help',
           position: 'right',
+
         },
         {
           href: 'https://github.com/IssamElNass/Scriptable-For-Dummies',
@@ -43,11 +43,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'docs/',
+              to: 'docs/getting-started',
             },
             {
               label: 'Popular Topics',
-              to: 'docs/doc2/',
+              to: 'docs/transparant-backgrounds',
             },
           ],
         },
@@ -75,10 +75,10 @@ module.exports = {
               label: 'Blog',
               to: 'blog',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            // {
+            //   label: 'GitHub',
+            //   href: 'https://github.com/facebook/docusaurus',
+            // },
           ],
         },
       ],

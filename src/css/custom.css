@@ -14,6 +14,7 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-hero-text-color: #ffffff;
   --ifm-code-font-size: 95%;
 }
 
@@ -22,4 +23,19 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+
+.hero__title, .hero__subtitle {
+  color: #ffffff
+}
+
+.margin-vert--md {
+  margin-bottom: 1rem!important;
+  margin-top: 1rem!important;
+}
+
+.hero-banner-logo {
+  max-width: 200px;
+  max-height: 200px;
 }
