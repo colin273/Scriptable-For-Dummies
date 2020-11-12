@@ -25,7 +25,7 @@ alert.present()
 ```
 
 When running your script it should show you this:
-<img src={useBaseUrl('img/previews/simple_alert_part1.png')} width="200"/>
+<img src={useBaseUrl('img/simple-alert/simple_alert_part1.png')} width="200"/>
 
 
 
@@ -53,7 +53,7 @@ alert.present().then(index => {
 })
 ```
 When running your script it should show you this:
-<img src={useBaseUrl('img/previews/simple_alert_part2.png')} width="200"/>
+<img src={useBaseUrl('img/simple-alert/simple_alert_part2.png')} width="200"/>
 
 Now we will calculate your age and show it again with an Alert.
 To calculate your age we will use Date to get the current year instead of putting it in a variable.
@@ -88,9 +88,9 @@ alert.present().then(index => {
 })
 ```
 When running your script it should show you this:
-<img src={useBaseUrl('img/previews/simple_alert_part3.png')} width="200"/>
+<img src={useBaseUrl('img/simple-alert/simple_alert_part3.png')} width="200"/>
 
 You did it! Next we will learn how to create a notification!
 
 You can also download the script to see and check on your mistakes or adding new things to it to practise!
-<img src={useBaseUrl('img/button_download_for.png')} width="200"/>
+<a href="https://www.dropbox.com/s/4kn15zfrbndtb3y/Example_Alert.scriptable?dl=1" download> <img src={useBaseUrl('img/buttons/button_download_for.png')} width="200"/></a>

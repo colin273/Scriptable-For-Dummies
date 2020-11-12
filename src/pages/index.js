@@ -53,13 +53,13 @@ function Home() {
   return (
     <Layout
       title={``}
-      description="Description will go into a meta tag in <head />"
+      description="Scriptable For Dummies is an easy guide to start with your Scriptable Adventure!"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <img
             className="hero-banner-logo margin-vert--md"
-           src={useBaseUrl('img/logo_transparant.png')}
+           src={useBaseUrl('img/icons/logo_transparant.png')}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>

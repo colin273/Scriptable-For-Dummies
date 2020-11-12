@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://scriptable-for-dummies.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icons/favicon.ico',
   organizationName: 'Himawari', // Usually your GitHub org/user name.
   projectName: 'Scriptable-For-Dummies', // Usually your repo name.
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: 'Scriptable Logo',
-        src: 'img/appicon.png',
+        src: 'img/icons/appicon.png',
       },
       items: [
         {
