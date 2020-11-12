@@ -8,7 +8,7 @@ This page includes our recommendations for some of the best external resources a
 
 
 ### Learning Javascript
-* [W3Schools' JavaScript Tutorial](https://www.w3schools.com/js/js_intro.asp).
+* [w3schools' JavaScript Tutorial](https://www.w3schools.com/js/js_intro.asp).
 * [Intro to Programming in JavaScript](https://www.codecademy.com/pro/intensive/programming-with-javascript)
 * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
@@ -19,7 +19,12 @@ Some guides and tutorials will assume that you're running JavaScript in a browse
 :::
 
 ### Learning HTML & CSS
-* W3Schools' [HTML](https://www.w3schools.com/html/) & [CSS](https://www.w3schools.com/css/default.asp) Tutorial.
+* w3schools' [HTML](https://www.w3schools.com/html/) & [CSS](https://www.w3schools.com/css/default.asp) Tutorial.
+* w3schools' [HTML Javascript](https://www.w3schools.com/html/html_scripts.asp) & [Javascript DOM CSS](https://www.w3schools.com/js/js_htmldom_css.asp) (for implementing HTML and CSS into Javascript)
+
+### Learning RegEx
+* [RegexOne](https://regexone.com/)
+* [w3schools](https://www.w3schools.com/jsref/jsref_obj_regexp.asp) (for implementing RegEx in Javascript)
 
 ### Helpful Links of Information
 Below is a list of links containing information that may help while you are programming. (reference)
