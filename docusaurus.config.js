@@ -24,16 +24,21 @@ module.exports = {
           position: 'right',
         },
        // { to: 'blog', label: 'Blog', position: 'right' },
+       {
+        to: 'versionnotes/',
+        label: 'Version Notes',
+        position: 'right',
+      },
         {
           href: 'https://discord.gg/7KbjfTV',
           label: 'Help',
           position: 'right',
-
         },
         {
           href: 'https://github.com/IssamElNass/Scriptable-For-Dummies',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
