@@ -41,7 +41,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://discord.gg/7KbjfTV',
+          href: 'https://github.com/IssamElNass/Scriptable-For-Dummies/issues/new/choose',
           label: 'Report A Bug',
           position: 'right',
         },
