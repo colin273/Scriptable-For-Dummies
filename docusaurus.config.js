@@ -21,17 +21,28 @@ module.exports = {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'right',
+          position: 'left',
         },
-       // { to: 'blog', label: 'Blog', position: 'right' },
-       {
-        to: 'versionnotes/',
-        label: 'Version Notes',
-        position: 'right',
-      },
+        // { to: 'blog', label: 'Blog', position: 'right' },
+        {
+          to: 'versionnotes/',
+          label: 'Version Notes',
+          position: 'left',
+        },
+        {
+          to: '/community/team',
+          label: 'Community',
+          position: 'right',
+          activeBaseRegex: `/community/`,
+        },
         {
           href: 'https://discord.gg/7KbjfTV',
-          label: 'Help',
+          label: 'Support',
+          position: 'right',
+        },
+        {
+          href: 'https://discord.gg/7KbjfTV',
+          label: 'Report A Bug',
           position: 'right',
         },
         {
@@ -102,6 +113,13 @@ module.exports = {
           editUrl:
             'https://github.com/IssamElNass/Scriptable-For-Dummies/tree/main/',
         },
+       /* community: {
+          id: 'community',
+          path: 'community',
+          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+          routeBasePath: 'community',
+          sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        },*/
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -114,4 +132,6 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+  ]
 };
