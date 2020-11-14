@@ -16,7 +16,7 @@ export default function TeamCard({
             {imageUrl && (
               <img
                 className="avatar__photo avatar__photo--xl"
-                src={imageUrl + ".png"}
+                src={imageUrl}
               />
             )}
             <div className="avatar__intro">
