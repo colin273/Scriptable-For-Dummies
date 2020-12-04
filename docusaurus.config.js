@@ -108,7 +108,12 @@ module.exports = {
 
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: true,
+
+      disableSwitch: false,
+
+      // Should we use the prefers-color-scheme media-query,
+      // using user system preferences, instead of the hardcoded defaultMode
+      respectPrefersColorScheme: true,
 
       // Dark/light switch icon options
       switchConfig: {
@@ -124,7 +129,7 @@ module.exports = {
 
         // Unicode icons such as '\u2600' will work
         // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '\u{1F602}',
+        lightIcon: '🌞',
 
         lightIconStyle: {
           marginLeft: '1px',
