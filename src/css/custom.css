@@ -42,7 +42,7 @@
 }
 
 .footer {
-  background-color: #151b25;
+  background-color: #14141d;
 }
 
 .button.button--secondary.button--outline:not(.button--active):not(:hover) {
@@ -104,7 +104,7 @@ html[data-theme="dark"] .header-discord-link:before {
 }
 
 .navbar {
-  background-color: #151b25;
+  background-color: transparent;
   box-shadow: none;
 }
 
@@ -169,4 +169,26 @@ html[data-theme="dark"] .header-discord-link:before {
 
 .header-class {
   height: 100vh;
+}
+
+.version-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  background: linear-gradient(
+    0deg,
+    #14141d,
+    rgba(19, 24, 32, 1) 50%,
+    rgba(21, 27, 37, 1) 100%
+  );
+}
+
+body {
+  background-color: #151b25;
+}
+
+.footer__links {
+  margin-bottom: 5rem;
 }

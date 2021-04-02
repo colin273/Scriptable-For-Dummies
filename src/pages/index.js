@@ -52,7 +52,6 @@ function Home () {
   const { siteConfig = {} } = context;
   return (
     <Layout
-
       description="Scriptable For Dummies is an easy guide to start with your Scriptable Adventure!"
     >
       <header className={clsx("hero hero--primary header-class", styles.heroBanner)}>
@@ -106,10 +105,10 @@ function Home () {
             </div>
           </section>
         )}
-        <img
+        {/* <img
           className="imagescreen"
           src={useBaseUrl('img/screenshot_app.png')}
-        />
+        /> */}
       </main>
     </Layout>
   );
