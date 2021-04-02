@@ -10,7 +10,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #151b25;
+  background: rgb(16, 20, 27);
+  background: linear-gradient(
+    0deg,
+    #14141d,
+    rgba(19, 24, 32, 1) 50%,
+    #151b25 100%
+  );
 }
 
 @media screen and (max-width: 966px) {
@@ -24,10 +30,25 @@
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 768px) {
+  .features {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
+    background-color: #14141d;
+    justify-content: center;
+  }
+}
 
-.features {
-  display: flex;
-  align-items: center;
-  padding: 4rem 0;
-  width: 100%;
+@media (max-width: 768px) {
+  .features {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
+    background-color: #14141d;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

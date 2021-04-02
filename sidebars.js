@@ -1,8 +1,10 @@
 module.exports = {
-  Sidebar: {
+  docs: {
     Welcome: ['about', 'what-is-scriptable'],
-    "Getting Started": ['getting-started','learning-resources', 'simple-alert'],
-    Cookbook: ['simple-notification','simple-table','simple-request','simple-widget'],
-    "Popular Topics": ['rss-feed','auto-updater','transparant-backgrounds', 'easy-webview', 'weather-widget', 'detect-widget-size']
-    },
+    "📌 Introduction": ['getting-started', 'learning-resources', 'simple-alert'],
+    "⚙️ Guides": ['add-text-widget', 'add-image-widget'],
+  },
+  api: [
+    'api/alert',
+  ],
 };

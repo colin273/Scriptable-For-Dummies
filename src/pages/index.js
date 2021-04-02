@@ -32,7 +32,7 @@ const features = [
   },
 ];
 
-function Feature({ imageUrl, title, description }) {
+function Feature ({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx("col col--4", styles.feature)}>
@@ -47,22 +47,35 @@ function Feature({ imageUrl, title, description }) {
   );
 }
 
-function Home() {
+function Home () {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={``}
       description="Scriptable For Dummies is an easy guide to start with your Scriptable Adventure!"
     >
-      <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <header className={clsx("hero hero--primary header-class", styles.heroBanner)}>
         <div className="container">
           <img
             className="hero-banner-logo margin-vert--md"
-           src={useBaseUrl('img/icons/logo_transparant.png')}
+            src={useBaseUrl('img/icons/logo_transparant.png')}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className="badges">
+            <a href="https://apps.apple.com/us/app/scriptable/id1405459188" className="margin-vert--md badge">
+              <img
+                src={useBaseUrl('img/Download_on_the_App_Store.png')}
+              />
+            </a>
+            <a href="https://scriptable.app/mac-beta/" className="margin-vert--md badge">
+              <img
+                src={useBaseUrl('img/Download_on_the_Mac.png')}
+              />
+            </a>
+
+          </div>
+
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -79,8 +92,12 @@ function Home() {
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
-            <div className="container">
-              <div className="row">
+            <img
+              className="imagescreen"
+              src={useBaseUrl('img/screenshot_app.png')}
+            />
+            <div className="extra-info">
+              <div className="columns">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
@@ -88,6 +105,9 @@ function Home() {
             </div>
           </section>
         )}
+        <div className="footer-custom">
+          Made with ❤️ by the Scriptable Discord team
+      </div>
       </main>
     </Layout>
   );
