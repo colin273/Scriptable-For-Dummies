@@ -10,7 +10,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #151b25;
+  background: rgb(16, 20, 27);
+  background: linear-gradient(
+    0deg,
+    #14141d,
+    rgba(19, 24, 32, 1) 50%,
+    rgba(21, 27, 37, 1) 100%
+  );
 }
 
 @media screen and (max-width: 966px) {
@@ -30,4 +36,5 @@
   align-items: center;
   padding: 4rem 0;
   width: 100%;
+  background-color: #14141d;
 }

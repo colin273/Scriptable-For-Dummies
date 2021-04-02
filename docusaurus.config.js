@@ -23,7 +23,6 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        // { to: 'blog', label: 'Blog', position: 'right' },
         {
           to: 'versionnotes/',
           label: 'Version Notes',
@@ -36,20 +35,16 @@ module.exports = {
           activeBaseRegex: `/community/`,
         },
         {
-          href: 'https://discord.gg/7KbjfTV',
-          label: 'Support',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/IssamElNass/Scriptable-For-Dummies/issues/new/choose',
-          label: 'Report A Bug',
-          position: 'right',
-        },
-        {
           href: 'https://github.com/IssamElNass/Scriptable-For-Dummies',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
+        },
+        {
+          href: 'https://discord.gg/7KbjfTV',
+          position: 'right',
+          className: 'header-discord-link',
+          'aria-label': 'Discord Server',
         },
       ],
     },
@@ -147,13 +142,13 @@ module.exports = {
           editUrl:
             'https://github.com/IssamElNass/Scriptable-For-Dummies/tree/main/',
         },
-       /* community: {
-          id: 'community',
-          path: 'community',
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
-          routeBasePath: 'community',
-          sidebarPath: require.resolve('./sidebarsCommunity.js'),
-        },*/
+        /* community: {
+           id: 'community',
+           path: 'community',
+           editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+           routeBasePath: 'community',
+           sidebarPath: require.resolve('./sidebarsCommunity.js'),
+         },*/
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
