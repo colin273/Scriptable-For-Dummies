@@ -14,7 +14,7 @@ function Version () {
     ));
 
     useEffect(() => {
-        fetch("http://itunes.apple.com/lookup?bundleId=dk.simonbs.Scriptable&country=US")
+        fetch("https://itunes.apple.com/lookup?bundleId=dk.simonbs.Scriptable&country=US")
             .then(res => res.json())
             .then(
                 (data) => {
