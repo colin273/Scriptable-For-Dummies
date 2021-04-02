@@ -81,7 +81,6 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/IssamElNass/Scriptable-For-Dummies/tree/main/',
-          showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
         theme: {
