@@ -36,7 +36,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: '/community/team',
+          to: '/team',
           label: 'Team',
           position: 'right',
           activeBaseRegex: `/community/`,

@@ -232,8 +232,24 @@ html[data-theme="dark"] .header-discord-link:before {
   align-items: center;
   flex-direction: column;
   height: 70vh;
+}
+
+@media (min-width: 997px) {
+  .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+    flex-grow: 1;
+    padding: 0.5rem;
+    background-color: #151b25;
+    border-right: 1px solid;
+}
+
+.sidebarWithHideableNavbar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+  padding-top: 0;
+  background-color: #151b25;
 
 }
+
+}
+
 
 body {
   background-color: #151b25;
@@ -248,4 +264,59 @@ body {
   justify-content: space-around;
   height: 50px;
   background-color: #14141d;
+}
+
+.kSAYjf {
+  border-radius: 0.75rem;
+  border: 1px solid rgb(238, 238, 238);
+  box-shadow: rgb(0 0 0 / 3%) 0px 1px 2px 0px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  min-width: calc(108px + 2rem);
+  cursor: pointer;
+  height: 100%;
+}
+
+.iwmryD {
+  height: 108px;
+  width: 118px;
+  border-radius: 50%;
+}
+
+.etqFwG {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: -4px;
+  line-height: 1rem;
+}
+
+.tNyKy {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.member {
+  margin: 15px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -87,11 +87,7 @@ function Home () {
               Get Started
             </Link>
           </div>
-
-          <div className="spacer-height"></div>
-          {/* <div class="icon-scroll"></div> */}
         </div>
-
       </header>
       <main>
         {features && features.length > 0 && (
@@ -113,7 +109,6 @@ function Home () {
           Made with ❤️ by the Scriptable Discord team
       </div>
       </main>
-
     </Layout>
   );
 }
