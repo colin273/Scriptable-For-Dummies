@@ -143,9 +143,11 @@ html[data-theme="dark"] .header-discord-link:before {
 .sidebarWithHideableNavbar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
   display: none;
 }
-/* .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+
+.row {
   background-color: #151b25;
-} */
+}
+
 .sidebarLogo_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-,
 .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
   display: none !important;
@@ -240,16 +242,13 @@ html[data-theme="dark"] .header-discord-link:before {
     padding: 0.5rem;
     background-color: #151b25;
     border-right: 1px solid;
+  }
+
+  .sidebarWithHideableNavbar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+    padding-top: 0;
+    background-color: #151b25;
+  }
 }
-
-.sidebarWithHideableNavbar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
-  padding-top: 0;
-  background-color: #151b25;
-
-}
-
-}
-
 
 body {
   background-color: #151b25;
