@@ -110,7 +110,7 @@ function Home () {
           </section>
         )}
         <div className="footer-custom">
-          Made with ❤️ by Scriptable Discord team
+          Made with ❤️ by the Scriptable Discord team
       </div>
       </main>
 

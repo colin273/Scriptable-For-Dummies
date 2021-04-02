@@ -112,7 +112,7 @@ html[data-theme="dark"] .header-discord-link:before {
 
 @media (min-width: 768px) {
   .navbar {
-    background-color: transparent;
+    background-color: #151b25;
     box-shadow: none;
   }
 
@@ -149,11 +149,6 @@ html[data-theme="dark"] .header-discord-link:before {
 .sidebarLogo_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-,
 .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
   display: none !important;
-}
-.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
-  flex-grow: 1;
-  padding: 0.5rem;
-  margin-top: 60px;
 }
 
 @media (max-width: 768px) {
@@ -237,12 +232,7 @@ html[data-theme="dark"] .header-discord-link:before {
   align-items: center;
   flex-direction: column;
   height: 70vh;
-  background: linear-gradient(
-    0deg,
-    #14141d,
-    rgba(19, 24, 32, 1) 50%,
-    rgba(21, 27, 37, 1) 100%
-  );
+
 }
 
 body {
