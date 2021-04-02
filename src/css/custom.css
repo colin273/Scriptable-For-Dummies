@@ -6,6 +6,7 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --ifm-color-primary: #316fdb;
   --ifm-color-primary-dark: #2462cd;
@@ -17,6 +18,12 @@
   --ifm-hero-text-color: #ffffff;
   --ifm-code-font-size: 95%;
   transition: all 0.2s ease;
+  --ifm-font-family-base: "Fira Sans";
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
 }
 
 .docusaurus-highlight-code-line {
@@ -103,9 +110,62 @@ html[data-theme="dark"] .header-discord-link:before {
   flex: auto;
 }
 
-.navbar {
-  background-color: transparent;
-  box-shadow: none;
+@media (min-width: 768px) {
+  .navbar {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .extra-info {
+    width: 30%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+}
+
+.padding-vert--lg {
+  padding-bottom: 0 !important;
+  padding-top: 2rem !important;
+}
+
+.skipToContent_node_modules-\@docusaurus-theme-classic-lib-next-theme-SkipToContent- {
+  display: none;
+}
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage- {
+  background-color: #151b25;
+}
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-,
+.sidebarWithHideableNavbar_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+  display: none;
+}
+/* .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+  background-color: #151b25;
+} */
+.sidebarLogo_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-,
+.collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+  display: none !important;
+}
+.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+  flex-grow: 1;
+  padding: 0.5rem;
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #14141d;
+    box-shadow: none;
+  }
+
+  .extra-info {
+    width: 100%;
+    padding: 28px;
+  }
 }
 
 .imagescreen {
@@ -191,4 +251,11 @@ body {
 
 .footer__links {
   margin-bottom: 5rem;
+}
+
+.footer-custom {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  background-color: #14141d;
 }

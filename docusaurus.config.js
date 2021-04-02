@@ -8,7 +8,8 @@ module.exports = {
   organizationName: 'Himawari', // Usually your GitHub org/user name.
   projectName: 'Scriptable-For-Dummies', // Usually your repo name.
   themeConfig: {
-    hideableSidebar: true,
+    hideableSidebar: false,
+    sidebarCollapsible: true,
     navbar: {
       title: 'Scriptable For Dummies',
       hideOnScroll: true,
@@ -24,13 +25,19 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'API',
+          position: 'left',
+        },
+        {
           to: 'version/',
-          label: 'Version Notes',
+          label: 'Version',
           position: 'left',
         },
         {
           to: '/community/team',
-          label: 'Community',
+          label: 'Team',
           position: 'right',
           activeBaseRegex: `/community/`,
         },
@@ -48,55 +55,55 @@ module.exports = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting Started',
-              to: 'docs/getting-started',
-            },
-            {
-              label: 'Popular Topics',
-              to: 'docs/transparant-backgrounds',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Reddit',
-              href: 'https://www.reddit.com/r/Scriptable/',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/7KbjfTV',
-            },
-            {
-              label: 'Automators Forum',
-              href: 'https://talk.automators.fm/c/scriptable/13',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            // {
-            //   label: 'GitHub',
-            //   href: 'https://github.com/facebook/docusaurus',
-            // },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Scriptable Discord Server. 👋🏼 All rights reserved.`,
-    },
+    // footer: {
+    //   style: 'dark',
+    //   links: [
+    //     {
+    //       title: 'Docs',
+    //       items: [
+    //         {
+    //           label: 'Getting Started',
+    //           to: 'docs/getting-started',
+    //         },
+    //         {
+    //           label: 'Popular Topics',
+    //           to: 'docs/transparant-backgrounds',
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: 'Community',
+    //       items: [
+    //         {
+    //           label: 'Reddit',
+    //           href: 'https://www.reddit.com/r/Scriptable/',
+    //         },
+    //         {
+    //           label: 'Discord',
+    //           href: 'https://discord.gg/7KbjfTV',
+    //         },
+    //         {
+    //           label: 'Automators Forum',
+    //           href: 'https://talk.automators.fm/c/scriptable/13',
+    //         },
+    //       ],
+    //     },
+    //     // {
+    //     //   title: 'More',
+    //     //   items: [
+    //     //     {
+    //     //       label: 'Blog',
+    //     //       to: 'blog',
+    //     //     },
+    //     //     // {
+    //     //     //   label: 'GitHub',
+    //     //     //   href: 'https://github.com/facebook/docusaurus',
+    //     //     // },
+    //     //   ],
+    //     // },
+    //   ],
+    //   copyright: `Copyright © ${new Date().getFullYear()} Scriptable Discord Server. 👋🏼 All rights reserved.`,
+    // },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'dark',

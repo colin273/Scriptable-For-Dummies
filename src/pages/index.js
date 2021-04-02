@@ -96,8 +96,12 @@ function Home () {
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
-            <div className="container">
-              <div className="row">
+            <img
+              className="imagescreen"
+              src={useBaseUrl('img/screenshot_app.png')}
+            />
+            <div className="extra-info">
+              <div className="columns">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
@@ -105,11 +109,11 @@ function Home () {
             </div>
           </section>
         )}
-        {/* <img
-          className="imagescreen"
-          src={useBaseUrl('img/screenshot_app.png')}
-        /> */}
+        <div className="footer-custom">
+          Made with ❤️ by Scriptable Discord team
+      </div>
       </main>
+
     </Layout>
   );
 }
