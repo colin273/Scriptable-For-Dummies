@@ -24,12 +24,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'API',
-          position: 'left',
-        },
+        // {
+        //   type: 'doc',
+        //   position: 'left',
+        //   docId: 'api/alert',
+        //   label: 'API',
+        // },
         {
           to: 'version/',
           label: 'Version',
@@ -81,6 +81,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/IssamElNass/Scriptable-For-Dummies/tree/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,8 +1,7 @@
 ---
-id: about
-title: About Scriptable For Dummies
-sidebar_label: About Scriptable For Dummies
-slug: /
+id: alert
+title: Alert
+sidebar_label: Alert
 ---
 
 Welcome to the Scriptable For Dummies!
