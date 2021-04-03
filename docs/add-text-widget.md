@@ -6,4 +6,4 @@ sidebar_label: Add Image To A Widget
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-**WIP**
+**This page is a WIP, come back later when we have some idea of what to put here.**
