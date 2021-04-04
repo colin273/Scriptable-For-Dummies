@@ -6,6 +6,13 @@ sidebar_label: Add Text To A Widget
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+* [intro](#intro)
+* [using-widgettext](#using-widgettext)
+* [example-code](#example-code)
+* [widgettext-example-image](#widgettext-example-image)
+* [adding-color](#adding-color)
+* [example-code-1](#example-code-1)
+
 ## Intro
 
 When starting a widget that you would like to display text on it often comes up that the script writer doesn't know how or where to place a given set of text to display.
