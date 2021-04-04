@@ -326,3 +326,12 @@ body {
     height: 100%;
   }
 }
+
+#__docusaurus {
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-color: #151b25;
+}
