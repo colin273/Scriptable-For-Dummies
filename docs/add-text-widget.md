@@ -19,7 +19,7 @@ There are a number of different ways we have to display text in a widget. The ma
 - DrawContext
 
 #### Using WidgetText
-  Let's cover the basic idea of how to add text to a widget. This code snippet is the minimal level needed to display basic text in a widget.
+Let's cover the basic idea of how to add text to a widget. This code snippet is the minimal level needed to display basic text in a widget.
 
 In the below example code, you can see that we first inialize the widget using `let w = new ListWidget()`, this assigns the variable w as our widget. 
 Next, we add the text as explained in the API documentation within the app, using the ListWidget.addText method. However, if you notice the `let text = w.addText('Hello World')`, we first assign the addText item to the variable `text`. The reason we do this, is because it allows us to modify the text characteristics (size, color, font, etc.). We will get to this later. 
@@ -30,17 +30,22 @@ Following setting the widget, we call `Script.complete()` to tell the app the sc
 
 This is all that is needed at this point for the widget to work on the Home Screen, however, usually developers of widgets like to see a preview, for this reason, it's a good idea to use `w.presentLarge()`, `w.presentMedium()`, or `w.presentSmall()` depending on the size you are trying to preview. `w` is purely based on the variable we set at the beginning of the script, so if this was setup to be something other than how it shows in the example, you'll need to use that instead. 
  
-  ##### Example Code
-  ```javascript
-  let w = new ListWidget()
+##### Example Code
+```javascript
+let w = new ListWidget()
 
-  let text = w.addText('Hello World!')
+let text = w.addText('Hello World!')
 
-  Script.setWidget(w)
-  Script.complete()
+Script.setWidget(w)
+Script.complete()
 
-  w.presentSmall()
-  ```
+w.presentSmall()
+```
+##### WidgetText Example Image
 This widget turns out like this depending on light / dark mode:
   ![addText Example1](images/AddTextExample1.PNG)
 
+##### Adding Color
+To add color to the text, we need to utilize the `WidgetText.textColor` property. For the example below, let's make the text red. 
+
+To do this, we add a new line of code referencing the item `text` that we created previously and we assign the `textColor` property. P
