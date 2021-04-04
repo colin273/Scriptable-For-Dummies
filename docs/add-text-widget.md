@@ -48,4 +48,25 @@ This widget turns out like this depending on light / dark mode:
 ##### Adding Color
 To add color to the text, we need to utilize the `WidgetText.textColor` property. For the example below, let's make the text red. 
 
-To do this, we add a new line of code referencing the item `text` that we created previously and we assign the `textColor` property. P
+To do this, we add a new line of code referencing the item `text` that we created previously and we assign the `textColor` property. The way we can reference these colors is with `Color.red()` for example. This will cover the basic colors. For using a hex color value you can replace `text.textColor = Color.red()` with `text.textColor = new Color('#ff0000')`
+
+Either method will work, it just depends on the flexibility you want for the color to be shown. 
+
+##### Example Code
+```javascript
+let w = new ListWidget()
+
+let text = w.addText('Hello World!')
+
+text.textColor = Color.red()
+text.textColor = new Color('#ff0000')
+
+Script.setWidget(w)
+Script.complete()
+
+w.presentSmall()
+```
+
+##### WidgetText Color Example Image
+This widget turns out like this depending on light / dark mode:
+  ![addText Example2](images/AddTextExample2.png)
