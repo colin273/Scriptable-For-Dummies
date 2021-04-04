@@ -25,7 +25,7 @@ In the below example code, you can see that we first inialize the widget using
 `let w = new ListWidget()`, 
 
 this assigns the variable w as our widget.
-Next, we add the text as explained in the API documentation within the app, using the `ListWidget.addText` method. However, if you notice the 
+Next, we add the text as explained in the API documentation within the app, using the `ListWidget.addText` method. However, you can see 
 
 `let text = w.addText('Hello World')`, 
 
