@@ -16,7 +16,7 @@ There are a number of different ways we have to display text in a widget. The ma
 - Stack (using addText within a stack)
 - DrawContext
 
-#### Using WidgetText
+### Using WidgetText
 
 Let's cover the basic idea of how to add text to a widget. This code snippet is the minimal level needed to display basic text in a widget.
 
@@ -29,7 +29,7 @@ Following setting the widget, we call `Script.complete()` to tell the app the sc
 
 This is all that is needed at this point for the widget to work on the Home Screen, however, usually developers of widgets like to see a preview, for this reason, it's a good idea to use `w.presentLarge()`, `w.presentMedium()`, or `w.presentSmall()` depending on the size you are trying to preview. `w` is purely based on the variable we set at the beginning of the script, so if this was setup to be something other than how it shows in the example, you'll need to use that instead.
 
-##### Example Code
+### Example Code
 
 ```javascript
 let w = new ListWidget();
@@ -42,12 +42,12 @@ Script.complete();
 w.presentSmall();
 ```
 
-##### WidgetText Example Image
+### WidgetText Example Image
 
 This widget turns out like this depending on light / dark mode:
 ![addText Example1](images/AddTextExample1.PNG)
 
-##### Adding Color
+### Adding Color
 
 To add color to the text, we need to utilize the `WidgetText.textColor` property. For the example below, let's make the text red.
 
@@ -55,7 +55,7 @@ To do this, we add a new line of code referencing the item `text` that we create
 
 Either method will work, it just depends on the flexibility you want for the color to be shown.
 
-##### Example Code
+### Example Code
 
 ```javascript
 let w = new ListWidget();
@@ -71,7 +71,7 @@ Script.complete();
 w.presentSmall();
 ```
 
-##### WidgetText Color Example Image
+### WidgetText Color Example Image
 
 This widget turns out like this depending on light / dark mode:
 ![addText Example2](images/AddTextExample2.png)
