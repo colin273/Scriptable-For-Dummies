@@ -6,6 +6,7 @@ sidebar_label: Add Text To A Widget
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# Contents
 * [intro](#intro)
 * [using-widgettext](#using-widgettext)
 * [example-code](#example-code)
