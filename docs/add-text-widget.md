@@ -20,8 +20,16 @@ There are a number of different ways we have to display text in a widget. The ma
 
 Let's cover the basic idea of how to add text to a widget. This code snippet is the minimal level needed to display basic text in a widget.
 
-In the below example code, you can see that we first inialize the widget using `let w = new ListWidget()`, this assigns the variable w as our widget.
-Next, we add the text as explained in the API documentation within the app, using the ListWidget.addText method. However, if you notice the `let text = w.addText('Hello World')`, we first assign the addText item to the variable `text`. The reason we do this, is because it allows us to modify the text characteristics (size, color, font, etc.). We will get to this later.
+In the below example code, you can see that we first inialize the widget using 
+
+`let w = new ListWidget()`, 
+
+this assigns the variable w as our widget.
+Next, we add the text as explained in the API documentation within the app, using the `ListWidget.addText` method. However, if you notice the 
+
+`let text = w.addText('Hello World')`, 
+
+we first assign the addText item to the variable `text`. The reason we do this, is because it allows us to modify the text characteristics (size, color, font, etc.). We will get to this later.
 
 At the end of the script, it's always a good idea to set the widget, this will allow the widget to be displayed.
 
@@ -49,9 +57,17 @@ This widget turns out like this depending on light / dark mode:
 
 ##### Adding Color
 
-To add color to the text, we need to utilize the `WidgetText.textColor` property. For the example below, let's make the text red.
+To add color to the text, we need to utilize the 
+`WidgetText.textColor` property. 
+For the example below, let's make the text red.
 
-To do this, we add a new line of code referencing the item `text` that we created previously and we assign the `textColor` property. The way we can reference these colors is with `Color.red()` for example. This will cover the basic colors. For using a hex color value you can replace `text.textColor = Color.red()` with `text.textColor = new Color('#ff0000')`
+To do this, we add a new line of code referencing the item `text` that we created previously and we assign the `textColor` property. The way we can reference these colors is with `Color.red()` for example. This will cover the basic colors. For using a hex color value you can replace 
+
+`text.textColor = Color.red()` 
+
+with 
+
+`text.textColor = new Color('#ff0000')`
 
 Either method will work, it just depends on the flexibility you want for the color to be shown.
 
