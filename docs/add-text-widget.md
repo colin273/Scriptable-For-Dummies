@@ -7,16 +7,16 @@ sidebar_label: Add Text To A Widget
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Contents
-* [intro](#intro)
-* [using-widgettext](#using-widgettext)
-* [example-code](#example-code)
-* [widgettext-example-image](#widgettext-example-image)
-* [adding-color](#adding-color)
-* [example-code-1](#example-code-1)
-* [widgettext-color-example-image](#widgettext-color-example-image)
-* [adding-text-within-stacks](#adding-text-within-stacks)
-* [example-code-2](#example-code-2)
-* [widgettext-stack-example-image](#widgettext-stack-example-image)
+* [Intro](#intro)
+* [WidgetText](#using-widgettext)
+* [WidgetText Example Code](#example-code)
+* [WidgetText Example Image](#widgettext-example-image)
+* [Widget Text Color](#adding-color)
+* [Widget Text Color Example Code](#example-code-1)
+* [Widget Text Color Example Image](#widgettext-color-example-image)
+* [Text within Stacks](#adding-text-within-stacks)
+* [Text within Stacks Example Code](#example-code-2)
+* [Text within Stacks Example Image](#widgettext-stack-example-image)
 
 ## Intro
 
