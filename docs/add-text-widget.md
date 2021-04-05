@@ -145,17 +145,29 @@ To better see how the spacer can impact the layout, I have also changed to prese
 ### Example Code
 
 ```javascript
-let w = new ListWidget();
+let w = new ListWidget()
 
-let text = w.addText("Hello World!");
+let text = w.addText('Hello World!')
 
-text.textColor = Color.red();
-text.textColor = new Color("#ff0000");
+//text.textColor = Color.red()
+text.textColor = new Color('#ff0000')
 
-Script.setWidget(w);
-Script.complete();
+let textStack = w.addStack()
+let textStack1 = textStack.addStack()
+textStack.addSpacer()
+let textStack2 = textStack.addStack()
 
-w.presentSmall();
+let text1 = textStack1.addText('Stack1 Hello!')
+let text2 = textStack2.addText('Stack2 World!')
+
+text1.textColor = Color.blue()
+
+textStack.layoutHorizontally()
+
+Script.setWidget(w)
+Script.complete()
+
+w.presentMedium()
 ```
 
 ### WidgetText Stack Example Image
