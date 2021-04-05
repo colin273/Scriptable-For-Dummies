@@ -173,4 +173,4 @@ w.presentMedium()
 ### WidgetText Stack Example Image
 
 This widget turns out like this depending on light / dark mode:
-![addTextStack Example](images/AddTextStackExample.png)
+![addTextStack Example](images/AddTextStackExample.jpeg)
