@@ -13,6 +13,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 * [widgettext-example-image](#widgettext-example-image)
 * [adding-color](#adding-color)
 * [example-code-1](#example-code-1)
+* [widgettext-color-example-image](#widgettext-color-example-image)
+* [adding-text-within-stacks](#adding-text-within-stacks)
+* [example-code-2](#example-code-2)
+* [widgettext-stack-example-image](#widgettext-stack-example-image)
 
 ## Intro
 
@@ -99,3 +103,62 @@ w.presentSmall();
 
 This widget turns out like this depending on light / dark mode:
 ![addText Example2](images/AddTextExample2.png)
+
+### Adding Text Within Stacks
+
+Stack usage within a widget is a great way to achieve alignment of the content of the widget.
+
+We are going to focus solely on adding text within a stack for right now. In another section of this documentation, we will cover in more detail about various aspects of stacks.
+
+Adding text within a stack is very similar to the method we used to add the text to the widget, however, we now need to reference a stack as the item we are adding the text to, instead of the widget variable itself.
+
+First, we will add a stack to the widget below our already existing text "Hello World!" and for this example, I will add two pieces of text to show how the stacks can aid in alignment. To add the stack after the existing text, we add a line of code below the line where the existing text was added, in this case, that is line 3. For this example, I am going to go below the line where the text color was applied.
+
+Adding in the `textStack` variable with `let textStack = w.addStack()` tells the app to add a stack just below the previous item in the widget.
+
+Now that I have a stack, I want to add two more stacks within it. This will allow me to space out the content of these stacks to display one set of text on the left side of the widget, and one set of text on the right side, while allowing it to stay within the same "row".
+
+To add these additional stacks, I add the code `let textStack1 = textStack.addStack()` and `let textStack2 = textStack.addStack()`.
+
+This now gives us two stacks within the main text stack item. By default, these stacks within a stack will be set to layout horizontally.
+
+Because I would like to have a spacing between these two text items, I am going to add a WidgetSpacer to the textStack by using `textStack.addSpacer()`. I don't have a value included in the parenthases and because of this, it will be a dynamic spacing size.
+
+Now we can add in the text that we want to be displayed in each of the stacks by adding similar code that we used to add the first text, but this time, we use `textStack1` or `textStack2` instead of `w`.
+
+In the example code, you will see we have 
+
+`let text1 = textStack1.addText('Stack1 Hello!')` 
+
+and 
+
+`let text2 = textStack2.addText('Stack2 World!')`
+
+This defines the content of those stacks, but we also are going to now change the textColor in textStack1 to be blue. The method for this is the same as before but we use a different variable because of the item we want to be blue.
+
+Adding in `text1.textColor = Color.blue()` will turn the 'Stack1 Hello!' blue in color when the widget is rendered.
+
+For good practice, we can add in `textStack.layoutHorizontally()` even though it is not necessary. It does help to see that it will place the items (textStack1 and textStack2) in a horizontal configuration.
+
+To better see how the spacer can impact the layout, I have also changed to presenting a medium widget instead of small size.
+
+### Example Code
+
+```javascript
+let w = new ListWidget();
+
+let text = w.addText("Hello World!");
+
+text.textColor = Color.red();
+text.textColor = new Color("#ff0000");
+
+Script.setWidget(w);
+Script.complete();
+
+w.presentSmall();
+```
+
+### WidgetText Stack Example Image
+
+This widget turns out like this depending on light / dark mode:
+![addTextStack Example](images/AddTextStackExample.png)
