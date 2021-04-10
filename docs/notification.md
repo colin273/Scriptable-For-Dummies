@@ -77,11 +77,11 @@ Now that we have a action we can check it worked by adding this
 ```js
 console.log(notification.actions)
 ```
-This should print <br>
-{ <br>
-  "title": "All the syntax", <br>
-  "url": "https://scriptable.app/notification" <br>
-} <br>
+This should print <br></br>
+{ <br></br>
+  "title": "All the syntax", <br></br>
+  "url": "https://scriptable.app/notification" <br></br>
+} <br></br>
 To add destructive you add another , just before the closing bracket then add true
 
 # Identifiers and userInfo
