@@ -24,7 +24,7 @@ sidebar_label: Notifications
 - [The end](#the-end)
 
 
-# Intro
+## Intro
 
 The very first thing we need to do is create the notification like this:
 ```js
@@ -35,7 +35,7 @@ Well now we have a notification but to see it you have to add
 notification.schedule()
 ```
 
-# What you can see - the basics:
+## What you can see - the basics:
 
 The notification we made won’t actually send because apple doesn’t allow blank notifications, so lets add a title:
 ```js
@@ -45,7 +45,7 @@ As well as the title you can have a subtitle and a body. Here is a diagram of th
 
 They are both quite simple to understand and are used the same way as the title we made earlier. 
 
-# Actions
+## Actions
 
 An action is a button which shows when you press and hold down on the notification. You can have up to 10.
 

@@ -6,4 +6,15 @@ sidebar_label: Add Image To A Widget
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-**WIP**
+# Contents
+* [Intro](#intro)
+
+
+## Intro
+
+Images in widgets are amazing! but how would one add an Image to a widget? In this tutorial we will be covering how to add an image through the network.
+
+
+
+### Image
+
