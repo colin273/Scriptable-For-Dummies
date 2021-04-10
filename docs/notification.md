@@ -1,7 +1,7 @@
 ---
-id: *notif* (needed for sidebar.js)
-title: *Notification* (Title that will be visible when clicking on the page)
-sidebar_label: *Notification* (Title that will be visible on the sidebar of the docs page)
+id: notif
+title: Notifications
+sidebar_label: Notifications
 ---
 
 - [Intro](#intro)
