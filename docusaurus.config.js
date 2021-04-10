@@ -35,12 +35,12 @@ module.exports = {
           label: 'Version',
           position: 'left',
         },
-        {
+       /* {
           to: '/team',
           label: 'Team',
           position: 'right',
           activeBaseRegex: `/community/`,
-        },
+        },*/
         {
           href: 'https://github.com/IssamElNass/Scriptable-For-Dummies',
           position: 'right',
