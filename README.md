@@ -30,12 +30,12 @@ This command generates static content into the `build` directory and can be serv
 
 Basically you just need the folder **docs** and **sidebars.js**
 
-First you create a markdown file in the docs folder (`example.md`) and add the code below at the top of the newly created markdown file.
+First you create a markdown file in the **docs** folder (`example.md`) and add the code below at the top of the newly created markdown file.
 ```
 ---
-id: *ID* (needed for sidebar.js)
-title: *Title* (Title that will be visible when clicking on the page)
-sidebar_label: *Sidebar Title* (Title that will be visible on the sidebar of the docs page)
+id: ID (needed for sidebar.js)
+title: TITLE (Title that will be visible when clicking on the page)
+sidebar_label: SIDEBAR_TITLE (Title that will be visible on the sidebar of the docs page)
 ---
 ```
 In the `sidebar.js` you'll just have to add the ID that you've added in the markdown file into the guides array.
