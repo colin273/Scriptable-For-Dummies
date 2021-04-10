@@ -1,5 +1,5 @@
 ---
-id: *Notif* (needed for sidebar.js)
+id: *notif* (needed for sidebar.js)
 title: *Notification* (Title that will be visible when clicking on the page)
 sidebar_label: *Notification* (Title that will be visible on the sidebar of the docs page)
 ---
