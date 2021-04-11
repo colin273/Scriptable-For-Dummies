@@ -3,7 +3,7 @@ id: learning-resources
 title: Learning Resources
 sidebar_label: Learning Resources
 ---
-Scriptable uses Apples [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore), which supports [ECMAScript 6](https://www.w3schools.com/js/js_es6.asp).
+Scriptable uses Apple's [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore), which supports [ECMAScript 6](https://www.w3schools.com/js/js_es6.asp).
 This page includes our recommendations for some of the best external resources available to learn Javascript.
 
 
