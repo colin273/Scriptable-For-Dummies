@@ -1,7 +1,7 @@
 ---
 id: http-requests
-title: HTTP Requests in Scriptable
-sidebar_label: HTTP Requests in Scriptable
+title: HTTP Requests
+sidebar_label: HTTP Requests
 ---
 - [Intro](#Intro)
 - [A simple request](#A-simple-request)
