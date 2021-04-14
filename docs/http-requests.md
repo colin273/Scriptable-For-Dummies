@@ -24,7 +24,7 @@ var request = new Request("https://random-data-api.com/api/nation/random_nation"
 var result = await request.loadJSON()
 console.log(result)
 ```
-So you made your fist request in Scriptable. Congrats! Let's see the code in details:<br>
+So you made your fist request in Scriptable. Congrats! Let's see the code in details:<br></br>
 
 ### Instances of Request
 ```javascript 
