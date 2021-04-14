@@ -15,7 +15,7 @@ sidebar_label: HTTP Requests
 ## Intro
 >If you are already familiar with JavaScript, you will be for sure aware of what HTTP requests are. If you aren't, don't worry! Just take your time reading [this](https://developer.mozilla.org/en-US/docs/Web/HTTP) article and then come back here to learn how to apply what you just read in Scriptable.
 
-In JavaScript we use `fetch` or `XMLHttpRequest` for sending requests to servers, and in NodeJS we use packages such as `node-fetch` or `request-promise`.<br>
+In JavaScript we use `fetch` or `XMLHttpRequest` for sending requests to servers, and in NodeJS we use packages such as `node-fetch` or `request-promise`.<br></br>
 But in Scriptable we **can't** use those methods. We instead have to rely on a particular API built into Scriptable: it's called `Request`. Let's see how to use it.
 
 ## A simple request
