@@ -12,7 +12,8 @@ module.exports = {
     "⚙️ Guides": [
       'add-text-widget',
       'add-image-widget',
-      'notif'
+      'notif',
+      'http-requests'
     ]
   },
   api: [
