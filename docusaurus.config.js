@@ -80,7 +80,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/IssamElNass/Scriptable-For-Dummies/tree/main/',
+            'https://github.com/FifiTheBulldog/Scriptable-For-Dummies/tree/main/',
           showLastUpdateTime: true,
         },
         theme: {
