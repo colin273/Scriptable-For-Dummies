@@ -11,20 +11,6 @@ function Team() {
                 <div className="members">
                     <div className="member">
                         <a
-                            href="https://github.com/IssamElNass"
-                            target="_blank"
-                            className="team__MemberCard-ubcv5p-4 kSAYjf"
-                        >
-                            <img
-                                src={useBaseUrl("img/himawari.png")}
-                                className="team__Avatar-ubcv5p-5 iwmryD"
-                            />
-                            <div className="team__MemberName-ubcv5p-6 etqFwG">Himawari</div>
-                            <div className="team__Username-ubcv5p-7 tNyKy">@Himawari</div>
-                        </a>
-                    </div>
-                    <div className="member">
-                        <a
                             href="https://github.com/lathryx"
                             target="_blank"
                             className="team__MemberCard-ubcv5p-4 kSAYjf"
