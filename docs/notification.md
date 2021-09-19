@@ -39,9 +39,9 @@ notification.schedule()
 
 The notification we made won’t actually send because apple doesn’t allow blank notifications, so lets add a title:
 ```js
-notification.setTitle('This is a title')
+notification.title = 'This is a title'
 ```
-As well as the title you can have a subtitle and a body. Here is a diagram of them both:
+As well as the title you can have a subtitle and a body. Here is a how you use them both:
 
 They are both quite simple to understand and are used the same way as the title we made earlier. 
 
@@ -105,7 +105,7 @@ for each notification you send you can change the threadIdentifier
 This is used to store information in a notification. When a script is run from a notification (next section) you can do 
 if(config.runsFromNotification) {
 //checks if it was ran from a notification
-var userinfo = Notification.opened
+var userinfo = args.notification.userInfo
 //retrieves the value
 console.log(userinfo)
 //logs the value
@@ -171,14 +171,14 @@ Perhaps the simplest thing you can do with it is display text. One of the many u
 var notification = new Notification()
 notification.scriptName = 'Example' 
 //set it to your script name
-notification.addText('This is below whats above')
+notification.body('This is below whats above')
 if(config.runsFromNotification) {
 QuickLook.present('This is above what’s below')
 //sets the preview
 Script.complete()
 //so you don’t get duplicate notifications
 } else {
-notification.present()
+notification.schedule()
 }
 ```
 Now in that you may have noticed you set the quick view once the notification runs the script. This could be used for obtaining variables from different scripts.
@@ -187,7 +187,7 @@ Now in that you may have noticed you set the quick view once the notification ru
 
 To do this you will need to create a [UI table](https://docs.scriptable.app/uitable) and then just change the quick look from displaying text to 
 ```js
-var uitable = new UITable 
+var uitable = new UITable()
 //make table with whatever you want
 QuickLook.present(uitable)
 ```
