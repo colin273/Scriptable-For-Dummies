@@ -6,10 +6,13 @@ module.exports = {
     ],
     "📌 Introduction": [
       'getting-started',
-      'learning-resources',
-      'simple-alert'
+      'learning-resources'
+    ],
+    "🛠 APIs": [
+      'relative-date-time-formatter'
     ],
     "⚙️ Guides": [
+      'simple-alert',
       'add-text-widget',
       'add-image-widget',
       'notif',
