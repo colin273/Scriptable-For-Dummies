@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   favicon: 'img/icons/favicon.ico',
-  organizationName: 'Himawari', // Usually your GitHub org/user name.
+  organizationName: 'FifiTheBulldog', // Usually your GitHub org/user name.
   projectName: 'Scriptable-For-Dummies', // Usually your repo name.
   themeConfig: {
     hideableSidebar: false,
@@ -42,7 +42,7 @@ module.exports = {
           activeBaseRegex: `/community/`,
         },*/
         {
-          href: 'https://github.com/IssamElNass/Scriptable-For-Dummies',
+          href: 'https://github.com/FifiTheBulldog/Scriptable-For-Dummies',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
