@@ -17,7 +17,7 @@ module.exports = {
       'add-image-widget',
       'notif',
       'http-requests'
-    ]
+    ], "🤫 Undocumented": ['all']
   },
   api: [
     'api/alert',
