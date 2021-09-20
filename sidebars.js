@@ -9,14 +9,14 @@ module.exports = {
       'learning-resources'
     ],
     "🛠 APIs": [
-      'relative-date-time-formatter'
+      'api/relative-date-time-formatter'
     ],
     "⚙️ Guides": [
-      'simple-alert',
-      'add-text-widget',
-      'add-image-widget',
-      'notif',
-      'http-requests'
+      'guides/simple-alert',
+      'guides/add-text-widget',
+      'guides/add-image-widget',
+      'guides/notification',
+      'guides/http-requests'
     ]
   },
   api: [
