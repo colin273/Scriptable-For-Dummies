@@ -1,5 +1,5 @@
 ---
-id: notif
+id: notification
 title: Notifications
 sidebar_label: Notifications
 ---

@@ -4,9 +4,9 @@ title: What Is Scriptable?
 sidebar_label: What Is Scriptable?
 ---
 
-Scriptable is a mobile application for iOS created to enable anyone to easily integrate with the iOS backend. Its simple syntax allows for lots of flexability. Scriptable uses Javascript. Scriptable allows for developers to prototype, test, preview, and much more. It was developed by [Simon B. Støvring](https://simonbs.dk/), the creator of various other apps such as [Jayson](https://jayson.app/) and [Data Jar](https://datajar.app/).
+Scriptable is a mobile application for iOS created to enable anyone to easily integrate with the iOS backend. Its simple syntax allows for lots of flexibility. Scriptable uses JavaScript. Scriptable allows for developers to prototype, test, preview, and much more. It was developed by [Simon B. Støvring](https://simonbs.dev/), the creator of various other apps such as [Jayson](https://jayson.app/) and [Data Jar](https://datajar.app/).
 
-Scriptable, according to their [website](https://scriptable.app/), currently consists of the following features:
+Scriptable, according to its [website](https://scriptable.app/), currently consists of the following features:
 
 * Plain Javascript
     - Supports JavaScript ES6. Scripts are stored as plain JS files on disk.
@@ -27,7 +27,7 @@ Scriptable, according to their [website](https://scriptable.app/), currently con
 * x-callback-url
     - Communicate with other apps using x-callback-url.
 
-By using Scriptable, you have the benefit of easily integrating with iOS without the need for a Developer license; it's a great tool for the average consumer, or a full-time developer.
+By using Scriptable, you have the benefit of easily integrating with iOS without the need for a developer license; it's a great tool for the average consumer, or a full-time developer.
 
 #### Here’s a few examples of scripts you could create:
 

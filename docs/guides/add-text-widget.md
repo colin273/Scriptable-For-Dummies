@@ -65,7 +65,7 @@ w.presentSmall();
 ### WidgetText Example Image
 
 This widget turns out like this depending on light / dark mode:
-![addText Example1](images/AddTextExample1.PNG)
+![addText Example1](../images/AddTextExample1.PNG)
 
 ### Adding Color
 
@@ -102,7 +102,7 @@ w.presentSmall();
 ### WidgetText Color Example Image
 
 This widget turns out like this depending on light / dark mode:
-![addText Example2](images/AddTextExample2.png)
+![addText Example2](../images/AddTextExample2.png)
 
 ### Adding Text Within Stacks
 
@@ -173,4 +173,4 @@ w.presentMedium()
 ### WidgetText Stack Example Image
 
 This widget turns out like this depending on light / dark mode:
-![addTextStack Example](images/AddTextStackExample.jpeg)
+![addTextStack Example](../images/AddTextStackExample.jpeg)
