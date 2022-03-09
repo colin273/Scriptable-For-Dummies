@@ -9,6 +9,7 @@ module.exports = {
       'learning-resources'
     ],
     "🛠 APIs": [
+      'api/alerts',
       'api/relative-date-time-formatter'
     ],
     "⚙️ Guides": [
