@@ -4,9 +4,11 @@ title: What Is Scriptable?
 sidebar_label: What Is Scriptable?
 ---
 
-Scriptable is a mobile application for iOS created to enable anyone to easily integrate with the iOS backend. Its simple syntax allows for lots of flexibility. Scriptable uses JavaScript. Scriptable allows for developers to prototype, test, preview, and much more. It was developed by [Simon B. Støvring](https://simonbs.dev/), the creator of various other apps such as [Jayson](https://jayson.app/) and [Data Jar](https://datajar.app/).
+Scriptable is an app for iOS that enables you to easily integrate with system apps and functionality using JavaScript. It includes simple classes and objects that represent system functionality, allowing for fairly complex integrations. In some ways, Scriptable could be compared to Shortcuts, but with JavaScript instead of drag-and-drop actions.
 
-Scriptable, according to its [website](https://scriptable.app/), currently consists of the following features:
+Scriptable's developer, [Simon B. Støvring](https://simonbs.dev/), has also developed other apps, such as [Jayson](https://jayson.app/) and [Data Jar](https://datajar.app/).
+
+The official [Scriptable website](https://scriptable.app/) lists the following features:
 
 * Plain Javascript
     - Supports JavaScript ES6. Scripts are stored as plain JS files on disk.
@@ -27,9 +29,11 @@ Scriptable, according to its [website](https://scriptable.app/), currently consi
 * x-callback-url
     - Communicate with other apps using x-callback-url.
 
-By using Scriptable, you have the benefit of easily integrating with iOS without the need for a developer license; it's a great tool for the average consumer, or a full-time developer.
+One major feature that the official website does not mention is the ability to create widgets. Scriptable offers an API for creating fairly complex static widgets, which can display information and images and let you run scripts or open URLs.
 
-#### Here’s a few examples of scripts you could create:
+Anyone can use Scriptable to access basic iOS functionality without needing to build or install a separate app. Developers can also use Scriptable to prototype and test JavaScript code.
+
+Here are some examples of scripts you could create:
 
 - Ask Siri whether a web service is down.
 - Postpone the next event in your calendar half an hour.
@@ -38,4 +42,4 @@ By using Scriptable, you have the benefit of easily integrating with iOS without
 - Upload files to an image optimizer and store a URL to the optimized image.
 - Receive a notification with the weather report every morning.
 - Create todos with prefilled data in your favorite todo app using URL schemes.
-- WIDGETS!
+- Count down the days until Christmas in a widget.

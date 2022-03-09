@@ -12,6 +12,6 @@ Scriptable has its own [official documentation](https://docs.scriptable.app/), b
     - Good beginner courses can be found on [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) or [SoloLearn](https://www.sololearn.com/Course/JavaScript/).
 * Access to an iOS device.
 * iOS 14 or later.
-* You have the Scriptable installed on your device from the [App Store](https://apps.apple.com/us/app/scriptable/id1405459188) or [TestFlight](https://testflight.apple.com/join/uN1vTqxk).
+* You have Scriptable installed on your device from the [App Store](https://apps.apple.com/us/app/scriptable/id1405459188) or [TestFlight](https://testflight.apple.com/join/uN1vTqxk).
 
 Further updates, announcements, or assisstance can be found on the unofficial Scriptable [subreddit](https://reddit.com/r/Scriptable/) and [Discord server](https://discord.gg/fsguJthT).
