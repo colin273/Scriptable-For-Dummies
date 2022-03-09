@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'Scriptable-For-Dummies', // Usually your repo name.
   themeConfig: {
     hideableSidebar: false,
-    sidebarCollapsible: true,
+    //sidebarCollapsible: true,
     navbar: {
       title: 'Scriptable For Dummies',
       hideOnScroll: true,
@@ -61,7 +61,7 @@ module.exports = {
       disableSwitch: true,
       respectPrefersColorScheme: false,
 
-      switchConfig: {
+      /*switchConfig: {
         darkIcon: '🌙',
         darkIconStyle: {
           marginLeft: '2px',
@@ -70,7 +70,7 @@ module.exports = {
         lightIconStyle: {
           marginLeft: '1px',
         },
-      },
+      },*/
     },
   },
   presets: [

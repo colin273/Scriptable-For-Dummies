@@ -21,6 +21,6 @@ module.exports = {
     ]
   },
   api: [
-    'api/alert',
+    'api/alerts',
   ]
 };
