@@ -19,8 +19,5 @@ module.exports = {
       'guides/notification',
       'guides/http-requests'
     ]
-  },
-  api: [
-    'api/alerts',
-  ]
+  }
 };
